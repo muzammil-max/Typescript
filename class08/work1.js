@@ -53,4 +53,7 @@ let both1 = {
     exp: "4 years experience",
     class: "nine",
 };
+console.log(both1.name);
+console.log(both1.age);
+console.log(both1.qualification);
 export {};
