@@ -84,10 +84,46 @@ let trafficlight1: "Red" = "Red";
 
 console.log(trafficlight1)
 
-// union types
+// union types |
 
 let age: string | number  = 291 ;
 
 
 let lights: "red" | "yellow" | "green" = "yellow";
 console.log(lights);
+
+
+//intersection &
+
+type student = {
+  name: string,
+  age: number,
+  qualification: string,
+  rollnumber: number,
+}
+
+type teacher = {
+  name: string,
+  age: number,
+  exp: string,
+  class: string,
+}
+
+let student1: student = {
+  name: "muzammil",
+  age: 16,
+  qualification: "AS level",
+  rollnumber: 3199,
+}
+
+//making a code for a person who is both student & teacher
+
+
+let both1: student & teacher = {
+  name: "haseeb",
+  age: 21,
+  qualification: "AS level",
+  rollnumber: 2942,
+  exp: "4 years experience",
+  class: "nine",
+}

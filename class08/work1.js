@@ -34,7 +34,23 @@ console.log(dress1.designer.designername);
 //type literals
 let trafficlight1 = "Red";
 console.log(trafficlight1);
+// union types |
 let age = 291;
 let lights = "yellow";
 console.log(lights);
+let student1 = {
+    name: "muzammil",
+    age: 16,
+    qualification: "AS level",
+    rollnumber: 3199,
+};
+//making a code for a person who is both student & teacher
+let both1 = {
+    name: "haseeb",
+    age: 21,
+    qualification: "AS level",
+    rollnumber: 2942,
+    exp: "4 years experience",
+    class: "nine",
+};
 export {};
