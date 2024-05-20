@@ -10,7 +10,7 @@ const userInput = await inquirer.prompt([
     {
         name: "myInput",
         type: "number",
-    }
+    },
 ]);
 count_num = userInput.myInput;
 while (flag) {
@@ -19,6 +19,7 @@ while (flag) {
         flag = false;
     }
     else {
+        //Will multiply the number to the result
         result = result * count_num;
         count_num = count_num - 1;
     }

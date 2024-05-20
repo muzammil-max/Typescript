@@ -1,6 +1,7 @@
+"use strict";
 // IF ELSE conditional  statements
 //@ts-nocheck
-var Age = 10;
+let Age = 10;
 if (Age >= 17) {
     console.log("You are good to go.");
 }
