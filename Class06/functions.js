@@ -33,3 +33,7 @@ function printFullName(fName, lName = "Khan") {
 }
 let ans = printFullName('Muzammil');
 console.log(ans);
+//Arrow Function or lamda Function
+let greet99 = () => 'Hello World';
+let result = greet99();
+console.log(result);

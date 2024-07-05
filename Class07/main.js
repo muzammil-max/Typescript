@@ -1,4 +1,9 @@
+"use strict";
 //Variable Scope
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
 let age = 18; //---> global variable because can be used anywhere in the main code
 if (true) {
     console.log(age);
@@ -25,8 +30,8 @@ console.log(car1.color);
 //This will  print Red
 // if I do console.log(cars)
 //inquirer
-import inquirer from "inquirer";
-let questions = await inquirer.prompt([
+const inquirer_1 = __importDefault(require("inquirer"));
+let questions = await inquirer_1.default.prompt([
     {
         name: "q1",
         type: "input",

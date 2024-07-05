@@ -1,4 +1,9 @@
-import inquirer from "inquirer";
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const inquirer_1 = __importDefault(require("inquirer"));
 //Loops
 //do while
 let i = 0;
@@ -74,7 +79,7 @@ for (count3 = 0; count3 <= 100; count3++) {
 // }
 let findBase = 1;
 let result = 0;
-const myinput = await inquirer.prompt({
+const myinput = await inquirer_1.default.prompt({
     name: "uservalue",
     type: "number",
     message: "please input your number"

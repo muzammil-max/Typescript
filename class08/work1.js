@@ -1,3 +1,4 @@
+"use strict";
 let obj2;
 obj2 = {
     carname: "mehran",
@@ -56,4 +57,3 @@ let both1 = {
 console.log(both1.name);
 console.log(both1.age);
 console.log(both1.qualification);
-export {};
