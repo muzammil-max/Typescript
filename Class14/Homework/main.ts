@@ -13,6 +13,3 @@ class speak {
   }
 }
 speak.say();
-
-// Getters and Setters
-class get {}
